@@ -24,7 +24,7 @@ MIT License
 
 ## Deployed Application
 
-(https://note1-5e1689a2a9e2.herokuapp.com/)
+https://note1-5e1689a2a9e2.herokuapp.com/
 
 ## Screenshots
 
