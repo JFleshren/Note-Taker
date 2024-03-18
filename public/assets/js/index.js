@@ -127,7 +127,10 @@ document.addEventListener('DOMContentLoaded', () => {
       return; // If the delete button is not found, exit the function
     }
   
-    const noteId = JSON.parse(deleteBtn.parentElement.getAttribute('data-note')).id;
+    const noteIdAttr = deleteBtn.parentElement.getAttribute('data-note');
+    console.log('noteIdAttr:', noteIdAttr);
+    const noteId = noteIdAttr ? JSON.parse(noteIdAttr).id : null;
+    console.log('noteId:', noteId);
   
     if (activeNote.id === noteId) {
       activeNote = {};
