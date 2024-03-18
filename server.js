@@ -72,7 +72,7 @@ app.delete('/api/notes/:id', (req, res) => {
         console.error(err);
         return res.status(500).json({ error: 'Internal server error' });
       }
-      res.status(204).send(); 
+      res.status(200).send(); 
     });
   });
 });
