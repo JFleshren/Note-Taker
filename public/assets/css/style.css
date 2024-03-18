@@ -3,6 +3,8 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #121212;
+  color: #ffffff;
 }
 
 .save-note, .new-note, .clear-btn {
@@ -14,14 +16,16 @@ body {
   margin-right: 15px;
   font-size: 1.5rem;
   cursor: pointer;
+  color: #ffffff;
 }
 
 .note-textarea,
 .note-title {
-  color: #000000;
+  color: #ffffff;
   width: 100%;
   outline: none;
   border: none;
+  background-color: #212121;
 }
 
 .note-textarea {
@@ -46,6 +50,7 @@ body {
   border-bottom: none;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+  background-color: #212121;
 }
 
 .list-container {
@@ -68,6 +73,7 @@ body {
 .list-container i {
   font-size: 1.1rem;
   cursor: pointer;
+  color: #ffffff;
 }
 
 .list-container .list-group-item {
@@ -75,4 +81,33 @@ body {
   border-right: none;
   padding: 20px;
   cursor: pointer;
+}
+.save-note,
+.new-note,
+.clear-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-note {
+  background-color: #4caf50; 
+}
+
+.new-note {
+  background-color: #2196f3;
+}
+
+.clear-btn {
+  background-color: #f44336; 
+}
+
+.save-note:hover,
+.new-note:hover,
+.clear-btn:hover {
+  opacity: 0.8; 
 }
