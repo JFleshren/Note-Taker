@@ -11,7 +11,7 @@ Boot the application by running 'node server.js' in the terminal.
 
 ## Usage
 
-Run the application with 'node server.js.' After doing so, you'll be presnted with the opening page. Click the button to be taken to the notes page. Here you can enter text into the forms and press "save" to save the note. These will be stored on the left side and can be clicked to open them again. If you'd like to clear a note before saving, press the "clear" button at the top. The red trashcan icon by saved notes can be clicked to delete the note adjacent to it. 
+Run the application with 'node server.js.' After doing so, you'll be presented with the opening page. Click the button to be taken to the notes page. Here you can enter text into the forms and press "save" to save the note. These will be stored on the left side and can be clicked to open them again. If you'd like to clear a note before saving, press the "clear" button at the top. The red trashcan icon by saved notes can be clicked to delete the note adjacent to it. 
 
 
 ## Credits
